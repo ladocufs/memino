@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Meninó</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- <div class="img-container">
+        <img class="img-fluid mx-auto" src="template9.png" alt="">
+    </div>  
+    <div class="modal">
+    </div> -->
+
+    <div class="preload">
+    <div class="midlle">
+        <div class="card-painel">
+            <div class="pcard card1">
+                <div class="deg1">
+                    <h1><center>M</center></h1>
+                </div>
+            </div>
+            <div class="pcard card2">
+                <div class="deg2">
+                    <h1><center>E</center></h1>
+                </div>
+            </div>
+            <div class="pcard card3">
+                <div class="deg3">
+                    <h1><center>M</center></h1>
+                </div>
+            </div>
+            <div class="pcard card4">
+                <div class="deg4">
+                    <h1><center>I</center></h1>
+                </div>
+            </div>
+            <div class="pcard card5">
+                <div class="deg5">
+                    <h1><center>N</center></h1>
+                </div>
+            </div>
+            <div class="pcard card6">
+                <div class="deg6">
+                    <h1><center>Ó</center></h1>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <b><h1 class=""><center>Iniciar criação das peças</center></h1></b>
+        </div>
+    </div>
+</div>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-dark" id="sidebar-wrapper">
+      <div class="sidebar-heading">Meminó </div>
+      <div class="sidebar list-group list-group-flush">
+          <ul>
+              <li class="item" id="item2">
+                  <a href="#" class="btn">
+                      <!-- <i class="fas fa-users"></i> -->
+                      Metáforas
+                      <i class="arrow fas fa-chevron-right"></i>
+                  </a>
+                  <div class="smenu">
+                      <a id='meta1' href="#">Metáfora 1</a>
+                      <a id='meta2' href="#">Metáfora 2</a>
+                      <a id='meta3' href="#">Metáfora 3</a>
+                      <a id='meta4' href="#">Metáfora 4</a>
+                  </div>
+              </li>
+              <li class="item" id="item3">
+                  <a href="#" class="btn">
+                      <!-- <i class="fas fa-users"></i> -->
+                      Memes
+                      <i class="arrow fas fa-chevron-right"></i>
+                  </a>
+                  <div class="smenu">
+                      <a id='meme1' href="#">Meme 1</a>
+                      <a id='meme2' href="#">Meme 2</a>
+                      <a id='meme3' href="#">Meme 3</a>
+                      <a id='meme4' href="#">Meme 4</a>
+                  </div>
+              </li>
+              <li class="item" id="item4">
+                  <a id="genPDF" href="#" class="btn">
+                      <!-- <i class="fas fa-cogs"></i> -->
+                      Salvar PDF
+                      <!-- <i class="arrow fas fa-chevron-right"></i> -->
+                  </a>
+              </li>
+          </ul>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div id="menu-toggle" class="icon times">
+            <div class="hanburger">
+
+            </div>
+        </div>
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <div class="user">
+                    <!-- <i class="far fa-user-circle"></i> -->
+                    <a id="clear" href="#">Limpar projeto</a>
+                </div>
+            </li>
+          </ul>
+      </nav>
+
+      <div class="container-fluid">
+          <div id="alert" class="alert alert-danger"></div>
+          <h3 id="title" class="mb-3">Texto</h3>
+          <form action='api-url-here' method='post' encType="multipart/form-data">
+                <input class="file-chooser" type="file" accept="image/*">
+                <textarea class="text" placeholder="Digite aqui a Metáfora "></textarea>
+          </form>
+
+          <div class="row">
+              <p>Pre-visualisação das peças</p>
+              <p>Escolha imagens com proporção 1x1 para evitar distorções</p>
+              <div class="col-xl-6 meta-meta px-4">
+                  <div class="row card-box meta1">
+                      <div class="col card-block">
+                          <h4>Esta é uma borracha de apagar ideologias</h4>
+                      </div>
+                      <div class="col card-block">
+                          <h4>Esta é uma borracha de apagar ideologias</h4>
+                      </div>
+                  </div>
+              </div>
+             <div class="col-xl-6 px-4">
+                  <div class="row card-box meta1">
+                      <div class="col card-block">
+                        <h4>Esta é uma borracha de apagar ideologias</h4>
+                      </div>
+                      <div class="col card-footer">
+                          <img src="nada.png" class="img-fluid preview-img1">
+                          <!-- Vencimento: 14/07/2020 -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-6 px-4">
+                  <div class="row card-box meta1">
+                      <div class="col card-block">
+                          <h4>Esta é uma borracha de apagar ideologias</h4>
+                      </div>
+                      <div class="col card-footer">
+                          <img src="nada.png" class="img-fluid preview-img1">
+                          <!-- Procentagem: 10.00% -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-6 px-4">
+                  <div class="row card-box meta1">
+                      <div class="col card-block ">
+                          <h4>Esta é uma borracha de apagar ideologias</h4>
+                      </div>
+                      <div class="col card-footer">
+                          <img src="nada.png" class="img-fluid preview-img1">
+                          <!-- Proximo pagamento: 15/09/2019 -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-6 px-4">
+                  <div class="row card-box meta1">
+                      <div class="col card-block ">
+                          <h4>Esta é uma borracha de apagar ideologias</h4>
+                      </div>
+                      <div class="col card-footer">
+                          <img src="nada.png" class="img-fluid preview-img1">
+                          <!-- R$ 2.400,00 ao final do contrato -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-6  px-4 meme-zero">
+                  <div class="row card-box meta1">
+                      <div class="col card-block ">
+                          <img src="Zero.svg" class="img-fluid">
+                      </div>
+                      <div class="col card-footer">
+                          <img src="nada.png" class="img-fluid preview-img1">
+                          <!-- R$ 2.400,00 ao final do contrato -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-6 px-4 meta-zero">
+                  <div class="row card-box meta1">
+                      <div class="col card-block">
+                          <h4>Esta é uma borracha de apagar ideologias</h4>
+                      </div>
+                      <div class="col card-footer">
+                          <img src="Zero.svg" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jspdf.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script src="js/imgData.js"></script>
+    <script src="js/zero.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
