@@ -206,7 +206,7 @@ const Home: NextPage = () => {
     }else
       setMeme('nada.png')
 
-  }, [storage, view])
+  }, [storage, view, meme, metaphor])
 
   useEffect(() => {
     if (window) setStorage(window.localStorage)
