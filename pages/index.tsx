@@ -206,7 +206,7 @@ const Home: NextPage = () => {
     }else
       setMeme('nada.png')
 
-  }, [storage, view])
+  }, [storage, view, meme, metaphor])
 
   useEffect(() => {
     if (window) setStorage(window.localStorage)
@@ -286,7 +286,7 @@ const Home: NextPage = () => {
                     <h4>{content[0]}</h4>
                   </div>
                   <div className="col card-footer">
-                    <img src={content[4]} className="img-fluid preview-img1" />
+                    <img src={content[4] || "nada.png"} className="img-fluid preview-img1" />
                   </div>
                 </div>
               </div>
@@ -296,7 +296,7 @@ const Home: NextPage = () => {
                     <h4>{content[1]}</h4>
                   </div>
                   <div className="col card-footer">
-                    <img src={content[5]} className="img-fluid preview-img1" />
+                    <img src={content[5] || "nada.png"} className="img-fluid preview-img1" />
                   </div>
                 </div>
               </div>
@@ -306,7 +306,7 @@ const Home: NextPage = () => {
                     <h4>{content[2]}</h4>
                   </div>
                   <div className="col card-footer">
-                    <img src={content[6]} className="img-fluid preview-img1" />
+                    <img src={content[6] || "nada.png"} className="img-fluid preview-img1" />
                   </div>
                 </div>
               </div>
@@ -316,7 +316,7 @@ const Home: NextPage = () => {
                     <h4>{content[3]}</h4>
                   </div>
                   <div className="col card-footer">
-                    <img src={content[7]} className="img-fluid preview-img1" />
+                    <img src={content[7] || "nada.png"} className="img-fluid preview-img1" />
                   </div>
                 </div>
               </div>
